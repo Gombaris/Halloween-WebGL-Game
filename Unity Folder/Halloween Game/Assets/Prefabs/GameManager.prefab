@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5122318943348120311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5122318943348120309}
+  - component: {fileID: 5122318943348120310}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5122318943348120309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122318943348120311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.32312647, y: 0.29961443, z: -2.019513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5122318943348120310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122318943348120311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b48bee80f001f479397e525fb5a23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _AmmoText: {fileID: 0}
+  _HealthText: {fileID: 0}
+  _LevelText: {fileID: 0}
+  _EnemiesText: {fileID: 0}
+  _PanelMenu: {fileID: 0}
+  _PanelControls: {fileID: 0}
+  _PanelPlayMode: {fileID: 0}
+  _PanelGameOver: {fileID: 0}
+  _PanelPauseMode: {fileID: 0}
+  _SkeletonPrefab: {fileID: 4267782460747488415, guid: 6a23eb551c9a8f94683086d62dfc75bb, type: 3}
+  _ZombiePrefab: {fileID: 1164055797896345111, guid: 6a90e4c30099a43489c6a3d0230b5a2c, type: 3}
+  _SkeletonWarriorPrefab: {fileID: 4228458946882112159, guid: bf955be59243a05488457388f785146c, type: 3}
+  _AmmunitionSpawn: {fileID: 6423848264563100553, guid: 5f40c7d66868bd9428cbbc2911834a4d, type: 3}
+  _Player: {fileID: 7167166717268151446, guid: 9d03d9f907f2e3b48bbb6a15d7377d8f, type: 3}
+  _GroundMask:
+    serializedVersion: 2
+    m_Bits: 64
